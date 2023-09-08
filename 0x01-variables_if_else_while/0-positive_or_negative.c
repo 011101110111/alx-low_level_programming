@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include<stadio.h> 
-
+#include <stadio.h>
 /**
  * main-entry point
  *
