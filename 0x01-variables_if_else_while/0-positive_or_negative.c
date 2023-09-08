@@ -3,11 +3,11 @@
 #include <stadio.h> 
 
 /**
-* main -  entry point 
-*
-* description: fales or true validation
-*
-* return : 0 (success)
+ * main - entry point 
+ *
+ * description: fales or true validation
+ *
+ * return : 0 (success)
 */
 
 int main(void)
