@@ -3,7 +3,7 @@
 #include <stadio.h> 
 
 /**
- * main - entry point 
+ * main-entry point
  *
  * description: fales or true validation
  *
