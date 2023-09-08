@@ -1,11 +1,11 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 
 /**
  * main-entry point
  *
- * description: fales or true validation
- *
- * return : 0 (success)
+ * Return : 0 (success)
 */
 
 int main(void)
