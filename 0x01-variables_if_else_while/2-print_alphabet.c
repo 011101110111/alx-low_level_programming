@@ -5,14 +5,13 @@
  *
  * Return: Always 0 (Success)
 */
- 
-int main(void)
-{
-	char c = 'a'
-	while( c <= 'z')
-        {       
+ int main(void){
+	char c = 'a';
+
+	while (c <= 'z');
+        {
 		putchar(c);
-		c++
-	}			
+		c++;
+	} 
 	return (0);
 }
