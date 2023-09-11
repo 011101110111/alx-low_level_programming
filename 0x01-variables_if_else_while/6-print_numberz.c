@@ -10,7 +10,7 @@ int main(void)
 {
 	int digit = 0;
 
-	while ("%i" digit <= 9)	
+	while ("%i" digit <= 9)
 	{
 		putchar(digit);
 		digit++;
