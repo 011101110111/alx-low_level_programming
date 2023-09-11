@@ -15,7 +15,7 @@ int main(void)
 		ch++;
 	}
 
-	putcahr ('\n');
+	putcahr('\n');
 
 	return (0);
-`}	
+}
