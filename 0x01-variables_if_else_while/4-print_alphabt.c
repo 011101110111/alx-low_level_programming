@@ -8,8 +8,9 @@
 int main(void)
 {
 	char c = 'a';
-	while(c <= 'z')
-	{	
+	
+	while (c <= 'z')
+	{
 		putcahr(c, != 'q', != 'e');
 		c++;
 	}
