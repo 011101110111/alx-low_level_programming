@@ -3,8 +3,12 @@
 /**
  * main - Entry point
  *
+ * Description: print 0, 1, - 9
+ *
  * return: Always 0 (success)
+ *
 */
+
 int main(void)
 {
 	int digit = 0;
