@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
-* print_alphabet -x10 print alphabet a-z
- *
- * Return: 0
+ * print_alphabet_x10 -  utilizes in the _ print the 
+alphabet a-z
+*
+* Return: 0
 */
 
 void print_alphabet_x10(void)
