@@ -18,23 +18,23 @@ void print_to_98(int n)
 			{
 				printf(", ");
 			}
-			n--
+			n--;
 		}
 	}
 		else if (n < 98)
 		{
 			while (n <= 98)
 			{
-				printf("%d", n)
+				printf("%d", n);
 				if (n != 98)
 				{
 					printf(", ");
 				}
-				n++
+				n++;
 			}
 		}
 		else
-			pritnf("%d", n);
+			printf("%d", n);
 
 
 }
