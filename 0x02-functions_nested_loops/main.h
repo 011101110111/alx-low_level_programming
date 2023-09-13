@@ -9,5 +9,6 @@ int _islower(int c);
 int _isalpha(int c);
 int print_sign(int n);
 void print_times_table(int n);
+void print_to_98(int n);
 
 #endif
