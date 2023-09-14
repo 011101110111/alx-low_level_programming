@@ -1,4 +1,5 @@
-#includ "main.h"
+#include <stdio.h>
+#include "main.h"
 
 
 /**
