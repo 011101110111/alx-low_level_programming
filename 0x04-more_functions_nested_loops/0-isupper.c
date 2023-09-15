@@ -1,12 +1,13 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main - check the code.
+ * _isupper - chack if c is upper
  *
- * Return: Always 0.
- */
-int main(void)
+ * @c: input for alphabet
+ *
+ * Return: 1 if c is upper, 0 is not
+*/
+int _isupper(int c)
 {
 	char = 'c';
 	if (c >= 65 && c <= 90)
