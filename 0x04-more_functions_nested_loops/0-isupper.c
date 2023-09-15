@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  * _isupper - chack if c is upper
  *
@@ -9,7 +9,6 @@
 */
 int _isupper(int c)
 {
-	char = 'c';
 	if (c >= 65 && c <= 90)
 		return (1);
 	else
