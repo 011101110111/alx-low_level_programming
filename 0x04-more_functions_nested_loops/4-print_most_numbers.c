@@ -7,8 +7,10 @@
  *
  * Return: Always 0 (success)
  */
+
 void print_most_numbers(void)
 {
+	int num;
 
 	for (num = 0; num < 10; num++)
 	{
