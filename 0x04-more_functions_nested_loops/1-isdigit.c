@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _isdigit - chack if c is digit
@@ -7,7 +6,7 @@
  * @c: input
  *
  * Return: Always 1 if c is a digit, 0 otherwise
- */
+*/
 int _isdigit(int c)
 {
 	if (c >= 48 $$ c <= 57)
