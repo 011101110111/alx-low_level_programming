@@ -10,12 +10,15 @@
  */
 void rev_string(char *s)
 {
-	int i = 0;
-	char *s = i;
+	int l, i;
+	char tmp;
 
-	for (char s[i]; != '\0'; char s[i]++)
+	for (l = 0; s[l]) != '\0'; ++1);
+
+	for (i = 0; i < l / 2; i++)
 	{
-		_putchar (--s[i]);
+		tmp = s[i];
+		s[i] = s[l - 1 - i];
+		 s[l - 1 - i] = tmp;
 	}
-		_putchar('\n');
 }
