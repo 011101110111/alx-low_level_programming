@@ -10,17 +10,16 @@
  * Return: dest.
 */
 
-char *_strcat(char *dest, char *src)
+char char *_strcat(char *dest, char *src)
 {
-	char *p = dest;
+	char s1[200] = *dest;
+	char s2[] = *src;
 
-	for (; *p != '\0'; p++)
+	strcat(s1, s2)
 	{
+		_putchar("s1")
+			_putchar('\n');
+		return (dest);
+
 	}
-		for (; *src != '\0'; src++)
-		{
-			*p = *src;
-			p++;
-		}
-	return (dest);
 }
