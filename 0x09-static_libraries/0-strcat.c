@@ -10,17 +10,7 @@
  *
  * Return: dest.
 */
-#include "main.h"
-
-/**
- * _strcat - concatenates two strings.
- *
- * @dest: first array.
- *
- * @src: second array.
- *
- * Return: dest.
-*/
+#include "main.h" 
 
 char *_strcat(char *dest, char *src)
 {
