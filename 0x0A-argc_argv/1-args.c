@@ -16,4 +16,5 @@ int main(int argc, char *argv[])
 	{
 		print("%s\n" argv[i]);
 	}
+	return (0);
 }
