@@ -30,5 +30,5 @@ char *_strdup(char *str)
 		for (i = 0; i < size; i++)
 		s[i] = str[i];
 	}
-	return (s)
+	return (s);
 }
