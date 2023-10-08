@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stadio.h>
+#include <stdio.h>
 
 /**
  * *string_nconcat - concatenates two strings.
@@ -7,7 +7,7 @@
  * @s2: second pointer of string
  * @n: Number of byet from N2 to concatenates
  *
- * return:  pointer space  in memory containing string
+ * Return:  pointer space  in memory containing string
  *
  **/
 char *string_nconcat(char *s1, char *s2, unsigned int n)
@@ -41,7 +41,5 @@ str[a] = s1[a];
 			(a++);
 		}
 		str[a] = '\0';
-		{
 			return (str);
-		}
 }
