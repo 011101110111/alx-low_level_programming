@@ -19,7 +19,7 @@ if (s1 == NULL)
 	s1 = "";
 
 if (s2 == NULL)
-	S2 = "";
+	s2 = "";
 for (s1_length = 0; s1[s1_length] != '\0'; s1_length++)
 	;
 for (s2_length = 0; s2[s2_length] != '\0'; s2_length++)
@@ -38,7 +38,7 @@ str[a] = s1[a];
 		for (b = 0; b < n; b++)
 		{
 			str[a] = str[b];
-			(a++);
+			a++;
 		}
 		str[a] = '\0';
 			return (str);
