@@ -35,13 +35,12 @@ if (str == NULL)
 }
 
 for (a = 0; s1[a] != '\0'; a++)
-;
 
 str[a] = s1[a];
 
 		for (b = 0; b < n; b++)
 		{
-			str[a] = str[b];
+			str[a] = s2[b];
 			a++;
 		}
 		str[a] = '\0';
