@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-/*
- * main -  prints the name of the file
+/**
+ * main -  prints the name of of this source file
  *
- * Return: Always 0
+ * Return: Always 0.
  */
 int main (void)
 {
-	printf("%s\n", __file__);
+	printf("%s\n", __FILE__);
 	return (0);
 }
