@@ -2,6 +2,7 @@
 
 /**
  * init_dog - initializes a dog
+ * @d: the dog to init
  * @name: dog's name
  * @age: dog's age
  * @owner: owner's dog
