@@ -18,8 +18,6 @@ int sum_them_all(const unsigned int n, ...)
 
 	va_start(cat, n);
 
-	sum = 0;
-
 	for (n = 0; n < cat; n++)
 		sum += va_arg(cat, int);
 
