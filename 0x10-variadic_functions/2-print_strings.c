@@ -1,5 +1,5 @@
 #include "variadic_functions.h"
-
+#include <stdio.h>
 /**
  * print_strings -  prints strings, followed by a new line with separator
  * @n: the nunmber of string
