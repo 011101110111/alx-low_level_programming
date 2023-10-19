@@ -10,10 +10,11 @@ int _strlen(char *s)
 {
 in i = 0;
 
-if (str == NULL)
+if (!s)
 	return (0);
 
-for (i = 0; i < *s; i++)
+while (*s++)
+	i++;
 
 return (i);
 }
