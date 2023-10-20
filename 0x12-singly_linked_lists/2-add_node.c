@@ -5,7 +5,7 @@
  * @head: address of pointer to head node
  * @str: feild of node
  *
- * Return: sixe of list
+ * Return: size of list
  */
 list_t *add_node(list_t **head, const char *str)
 {
@@ -26,5 +26,5 @@ list_t *add_node(list_t **head, const char *str)
 
 	new_head->next = *head;
 	*head = new_head;
-	return (new_hea);
+	return (new_head);
 }
