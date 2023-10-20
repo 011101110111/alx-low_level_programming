@@ -1,46 +1,50 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
- *  *_memset - fills memry to constant byets
- * @s: memry area to failed
- * @b: char to copy
- * @n: number to copy b
- * Return: pointer
- */
-void *_memset(char b, char *s, unsigned int n)
+ * _memset - set the specific character to all string.
+ *
+ * @l: string.
+ * @d: specific character.
+ * @n: number of index.
+ *
+ * Return: k.
+*/
+
+
+char *_memset(char *l, int d, int n)
 {
-	 unsigned int i;
+	char *k = l;
+	int i;
 
-	 for (i = 0; i < n; i++)
-
-	 {
-		 s[i] = b;
-	 }
-
-	return (s);
+	for (i = 0; i < n; i++)
+	{
+		k[i] = d;
+	}
+	return (k);
 }
 
 /**
- *  *_calloc -  allocates memory for an array, using malloc
+ * _calloc - Allocate memory for array of nmemb elements of size bytes
+ * @nmemb: Number of elemnts
+ * @size: Size in bytes of elements
  *
- * @nmemb: arry of length
- * @size: size of each element
- *
- * Return: poniter
+ * Return: Pointer to new memory, NULL if it fails
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	void *s;
+	void *d;
 
 	if (nmemb == 0 || size == 0)
+	{
+		return (NULL);
+	}
+
+	d = malloc(size * nmemb);
+	if (d == NULL)
 		return (NULL);
 
-	s = malloc(sizeof(int) * nmemb);
+	_memset(d, 0, (size * nmemb));
 
-	if (s == 0)
-		return (NULL);
-
-	_memset(s, 0, sizeof(int) * nmemb);
-
-	return (s);
+	return (d);
 }
