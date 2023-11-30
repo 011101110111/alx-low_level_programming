@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * _srtlen - return the lengh of string
+ * _strlen - return the lengh of string
  * @s: the string whose lengh
  *
  * Return: integer leght of string
