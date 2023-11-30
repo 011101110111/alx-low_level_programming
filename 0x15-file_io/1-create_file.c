@@ -20,10 +20,10 @@ int _strlen(char *s)
 
 
 /**
- * create_file - Create a function that creates a file.
+ * create_file - Create a creates a file.
  * @filename : the file to creat
  * @text_content: text to write
- * Return: return 1 success ,failure 0
+ * Return: return 1 success ,return 0 failure
  */
 int create_file(const char *filename, char *text_content)
 {
@@ -42,5 +42,5 @@ int create_file(const char *filename, char *text_content)
 		bytes = write(fd, text_content, len);
 
 	close(fd);
-	return ((bytes == len) ? 1 : -1);
+	return (bytes == len ? 1 : -1);
 }
